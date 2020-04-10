@@ -62,8 +62,8 @@ CREATE TABLE "postes" (
     "libelle" VARCHAR(255) );
 
 -- Création de la table selection
-CREATE TABLE "selection" (
-    "IDselection" NUMERIC(19,0)  PRIMARY KEY ,
+CREATE TABLE "employe" (
+    "IDemploye" NUMERIC(19,0)  PRIMARY KEY ,
     "dateSelection" VARCHAR(50) ,
     "IDdemandeur" NUMERIC(19,0) );
 CREATE INDEX "WDIDX_selection_IDdemandeur" ON "selection" ("IDdemandeur");
