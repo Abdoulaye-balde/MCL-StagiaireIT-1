@@ -1,0 +1,20 @@
+//MO000-001.TXT ANA00000 TO ANA00001
+utilisateurs		NFI		nouveau fichier
+candidats		NFI		nouveau fichier
+tests		NFI		nouveau fichier
+postes		NFI		nouveau fichier
+salaires		NFI		nouveau fichier
+materiels		NFI		nouveau fichier
+conges		NFI		nouveau fichier
+absecnces		NFI		nouveau fichier
+utilisateurs_conges		NFI		nouveau fichier
+absecnces_utilisateurs		NFI		nouveau fichier
+tests_candidats		NFI		nouveau fichier
+Contrainte_utilisateurs_postes		NWL	postes (IDpostes) et utilisateurs (IDpostes)	Nouvelle liaison entre les fichiers postes (IDpostes) et utilisateurs (IDpostes)
+Contrainte_postes_salaires		NWL	salaires (IDsalaires) et postes (IDsalaires)	Nouvelle liaison entre les fichiers salaires (IDsalaires) et postes (IDsalaires)
+Contrainte_utilisateurs_conges		NWL	utilisateurs (IDutilisateurs) et utilisateurs_conges (IDutilisateurs)	Nouvelle liaison entre les fichiers utilisateurs (IDutilisateurs) et utilisateurs_conges (IDutilisateurs)
+Contrainte_conges_utilisateurs		NWL	conges (IDconges) et utilisateurs_conges (IDconges)	Nouvelle liaison entre les fichiers conges (IDconges) et utilisateurs_conges (IDconges)
+Contrainte_absecnces_utilisateurs		NWL	absecnces (IDabsecnces) et absecnces_utilisateurs (IDabsecnces)	Nouvelle liaison entre les fichiers absecnces (IDabsecnces) et absecnces_utilisateurs (IDabsecnces)
+Contrainte_utilisateurs_absecnces		NWL	utilisateurs (IDutilisateurs) et absecnces_utilisateurs (IDutilisateurs)	Nouvelle liaison entre les fichiers utilisateurs (IDutilisateurs) et absecnces_utilisateurs (IDutilisateurs)
+Contrainte_tests_candidats		NWL	tests (IDtests) et tests_candidats (IDtests)	Nouvelle liaison entre les fichiers tests (IDtests) et tests_candidats (IDtests)
+Contrainte_candidats_tests		NWL	candidats (IDcandidats) et tests_candidats (IDcandidats)	Nouvelle liaison entre les fichiers candidats (IDcandidats) et tests_candidats (IDcandidats)

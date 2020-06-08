@@ -1,0 +1,44 @@
+//MO001-002.TXT ANA00001 TO ANA00002
+utilisateurs		TAR	451	nouvelle taille enregistrement : 451
+utilisateurs	telephone	RUB+		telephone est une nouvelle rubrique
+utilisateurs	date_naissance	RUB+		date_naissance est une nouvelle rubrique
+utilisateurs	civilté	RUB+		civilté est une nouvelle rubrique
+utilisateurs	adress	RUB+		adress est une nouvelle rubrique
+utilisateurs	email	RUB+		email est une nouvelle rubrique
+utilisateurs	photo	RUB+		photo est une nouvelle rubrique
+tests		TAR	297	nouvelle taille enregistrement : 297
+tests	IDcategories	RUB+		IDcategories est une nouvelle clé
+tests	IDavis_recrutement	RUB+		IDavis_recrutement est une nouvelle clé
+tests	IDcandidats	RUB-		la clé IDcandidats est supprimée
+postes		TAR	68	nouvelle taille enregistrement : 68
+postes	nom	CLEU*		la rubrique nom est maintenant une clé
+postes	IDsalaires	RUB-		la clé IDsalaires est supprimée
+categories		NFI		nouveau fichier
+avis_recrutement		NFI		nouveau fichier
+formation		NFI		nouveau fichier
+utilisateurs_tests		NFI		nouveau fichier
+utilisateurs_formation		NFI		nouveau fichier
+postes_avis_recrutement		NFI		nouveau fichier
+candidats		FIC-	candidats	Fichier supprimé candidats
+salaires		FIC-	salaires	Fichier supprimé salaires
+conges		FIC-	conges	Fichier supprimé conges
+absecnces		FIC-	absecnces	Fichier supprimé absecnces
+utilisateurs_conges		FIC-	utilisateurs_conges	Fichier supprimé utilisateurs_conges
+absecnces_utilisateurs		FIC-	absecnces_utilisateurs	Fichier supprimé absecnces_utilisateurs
+tests_candidats		FIC-	tests_candidats	Fichier supprimé tests_candidats
+Contrainte_formation_utilisateurs		NWL	formation (IDformation) et utilisateurs_formation (IDformation)	Nouvelle liaison entre les fichiers formation (IDformation) et utilisateurs_formation (IDformation)
+Contrainte_categories_tests		NWL	categories (IDcategories) et tests (IDcategories)	Nouvelle liaison entre les fichiers categories (IDcategories) et tests (IDcategories)
+Contrainte_utilisateurs_formation		NWL	utilisateurs (IDutilisateurs) et utilisateurs_formation (IDutilisateurs)	Nouvelle liaison entre les fichiers utilisateurs (IDutilisateurs) et utilisateurs_formation (IDutilisateurs)
+Contrainte_avis_recrutement_tests		NWL	avis_recrutement (IDavis_recrutement) et tests (IDavis_recrutement)	Nouvelle liaison entre les fichiers avis_recrutement (IDavis_recrutement) et tests (IDavis_recrutement)
+Contrainte_avis_recrutement_postes		NWL	avis_recrutement (IDavis_recrutement) et postes_avis_recrutement (IDavis_recrutement)	Nouvelle liaison entre les fichiers avis_recrutement (IDavis_recrutement) et postes_avis_recrutement (IDavis_recrutement)
+Contrainte_tests_utilisateurs		NWL	tests (IDtests) et utilisateurs_tests (IDtests)	Nouvelle liaison entre les fichiers tests (IDtests) et utilisateurs_tests (IDtests)
+Contrainte_utilisateurs_tests		NWL	utilisateurs (IDutilisateurs) et utilisateurs_tests (IDutilisateurs)	Nouvelle liaison entre les fichiers utilisateurs (IDutilisateurs) et utilisateurs_tests (IDutilisateurs)
+Contrainte_postes_avis_recrutement		NWL	postes (IDpostes) et postes_avis_recrutement (IDpostes)	Nouvelle liaison entre les fichiers postes (IDpostes) et postes_avis_recrutement (IDpostes)
+Contrainte_utilisateurs_postes		DEL	postes (IDpostes) et utilisateurs (IDpostes)	Liaison supprimée entre les fichiers postes (IDpostes) et utilisateurs (IDpostes)
+Contrainte_postes_salaires		DEL	salaires (IDsalaires) et postes (IDsalaires)	Liaison supprimée entre les fichiers salaires (IDsalaires) et postes (IDsalaires)
+Contrainte_utilisateurs_conges		DEL	utilisateurs (IDutilisateurs) et utilisateurs_conges (IDutilisateurs)	Liaison supprimée entre les fichiers utilisateurs (IDutilisateurs) et utilisateurs_conges (IDutilisateurs)
+Contrainte_conges_utilisateurs		DEL	conges (IDconges) et utilisateurs_conges (IDconges)	Liaison supprimée entre les fichiers conges (IDconges) et utilisateurs_conges (IDconges)
+Contrainte_absecnces_utilisateurs		DEL	absecnces (IDabsecnces) et absecnces_utilisateurs (IDabsecnces)	Liaison supprimée entre les fichiers absecnces (IDabsecnces) et absecnces_utilisateurs (IDabsecnces)
+Contrainte_utilisateurs_absecnces		DEL	utilisateurs (IDutilisateurs) et absecnces_utilisateurs (IDutilisateurs)	Liaison supprimée entre les fichiers utilisateurs (IDutilisateurs) et absecnces_utilisateurs (IDutilisateurs)
+Contrainte_tests_candidats		DEL	tests (IDtests) et tests_candidats (IDtests)	Liaison supprimée entre les fichiers tests (IDtests) et tests_candidats (IDtests)
+Contrainte_candidats_tests		DEL	candidats (IDcandidats) et tests_candidats (IDcandidats)	Liaison supprimée entre les fichiers candidats (IDcandidats) et tests_candidats (IDcandidats)

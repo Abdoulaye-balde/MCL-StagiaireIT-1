@@ -1,0 +1,13 @@
+;PCSoft - Hyper File V7.00 - REP V7.00
+;Do not edit. Please use specific tools.
+ANALYSISGUID=F	;Analysis GUID
+LOCALIZATION_UTF8=C0247B754EB241DAB69AF036663B6BC8	postes	C:\Mes Projets\MC Logistic bureautique\Exe\postes.fic
+LOCALIZATION_UTF8=8E0E3B0BCCC240FEACC48664D8608ECD	utilisateurs	C:\Mes Projets\MC Logistic bureautique\Exe\utilisateurs.fic
+LOCALIZATION_UTF8=F158219E6E1943DEA315AC99B5F5734D	materiels	C:\Mes Projets\MC Logistic bureautique\Exe\materiels.fic
+LOCALIZATION_UTF8=3E3EFBAF07A943A0AA1737106258E8D1	categories	C:\Mes Projets\MC Logistic bureautique\Exe\categories.fic
+LOCALIZATION_UTF8=5A01662EA5C64E8D95A284E98045C7FE	formation	C:\Mes Projets\MC Logistic bureautique\Exe\formation.fic
+LOCALIZATION_UTF8=C2A43DE122B546649983075DEB87218B	tests	C:\Mes Projets\MC Logistic bureautique\Exe\tests.fic
+LOCALIZATION_UTF8=E01A660D74FF4A179F490ED1126C445E	avis_recrutement	C:\Mes Projets\MC Logistic bureautique\Exe\avis_recrutement.fic
+LOCALIZATION_UTF8=C980CB6D03204B44ABD7025DE4AC0150	postes_avis_recrutement	C:\Mes Projets\MC Logistic bureautique\Exe\postes_avis_recrutement.fic
+LOCALIZATION_UTF8=6AB1013D526B43CA81309E80CE8C48DC	utilisateurs_tests	C:\Mes Projets\MC Logistic bureautique\Exe\utilisateurs_tests.fic
+LOCALIZATION_UTF8=A5CD9CD5A897445880783CF8EB61AB3E	utilisateurs_formation	C:\Mes Projets\MC Logistic bureautique\Exe\utilisateurs_formation.fic
